@@ -1,0 +1,32 @@
+# ── Core LangChain ─────────────────────────────────────────────────────────
+langchain
+langchain_community
+langchain_openai
+langchain_huggingface
+langchain_experimental
+langchain_text_splitters
+langgraph
+
+# ── OpenAI ─────────────────────────────────────────────────────────────────
+openai
+
+# ── HuggingFace ────────────────────────────────────────────────────────────
+huggingface_hub
+transformers
+accelerate
+bitsandbytes
+
+# ── Vector Store ───────────────────────────────────────────────────────────
+faiss-cpu
+
+# ── PDF Handling ───────────────────────────────────────────────────────────
+pymupdf
+pymupdf4llm
+pypdf
+
+# ── Data ───────────────────────────────────────────────────────────────────
+pandas
+numpy
+
+# ── Search Tool (replaces wikipedia — Python 3.14 compatible) ──────────────
+duckduckgo-search
