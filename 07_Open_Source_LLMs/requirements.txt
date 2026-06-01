@@ -1,0 +1,30 @@
+# ══════════════════════════════════════════════════════════════════════════
+#  Master Requirements — Open Source LLMs with LangChain
+#  Covers: Llama-2, Llama-2+LangChain, Falcon+LangChain,
+#          Falcon+ChromaDB, Mistral+LangChain
+# ══════════════════════════════════════════════════════════════════════════
+
+# Core ML
+torch
+transformers
+accelerate
+bitsandbytes
+sentencepiece
+
+# HuggingFace
+huggingface_hub
+
+# LangChain
+langchain
+langchain_chroma
+langchain_community
+langchain_huggingface
+langchain_text_splitters
+
+# Embeddings & Vector DB
+sentence_transformers
+chromadb
+
+# Document Processing
+tiktoken
+pypdf
