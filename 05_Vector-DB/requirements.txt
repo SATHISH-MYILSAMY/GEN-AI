@@ -1,0 +1,29 @@
+# ── Core LangChain ─────────────────────────────────────────────────────────
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+
+# ── OpenAI ─────────────────────────────────────────────────────────────────
+openai
+tiktoken
+
+# ── ChromaDB ───────────────────────────────────────────────────────────────
+chromadb
+langchain-chroma
+
+# ── Pinecone ───────────────────────────────────────────────────────────────
+pinecone
+langchain-pinecone
+
+# ── Weaviate ───────────────────────────────────────────────────────────────
+weaviate-client
+langchain-weaviate
+
+# ── PDF Handling ───────────────────────────────────────────────────────────
+pypdfuv
+
+# ── Optional Utilities ────────────────────────────────────────────────────
+transformers
+tokenizers
+python-dotenv
