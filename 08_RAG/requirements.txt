@@ -1,0 +1,28 @@
+# ══════════════════════════════════════════════════════════════════════════
+#  Requirements — RAG URL Loader + ChromaDB + OpenAI
+#  Python 3.14 compatible — uses pure LCEL (no langchain.chains)
+# ══════════════════════════════════════════════════════════════════════════
+
+# LangChain (pinned for Python 3.14 compatibility)
+langchain==0.3.25
+langchain_community==0.3.24
+langchain_openai==0.3.16
+langchain_chroma
+langchain_text_splitters
+langchain_google_genai
+
+# Vector DB
+chromadb
+
+# OpenAI tokenizer (required by langchain_openai)
+tiktoken
+
+# URL document loader
+unstructured
+
+# Streamlit (for app.py)
+streamlit
+
+# Environment variable management
+python-dotenv
+pypdf
